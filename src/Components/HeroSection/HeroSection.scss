@@ -1,0 +1,39 @@
+.hero-box {
+  background: url("../Assets/hero-banner 2.png")center/cover no-repeat;
+  margin: 36px 0 30px;
+  &_content {
+    padding:285px 741px 381px 135px;
+    gap: 50px;
+    justify-content: flex-start;
+    & h2 {
+      color: #2C2C2C;
+      font-size: 84px;
+      font-weight: 700;
+      line-height: 112px
+    }
+    &__button {
+      padding: 16px 36.5px;
+      background: #FF715B;
+      color: #fff;
+      font-size: 18px;
+      font-weight: 500;
+      border: none;
+      margin-top: 50px;
+    }
+  }
+}
+
+.pagination {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  &_next-back {
+    display: flex;
+    gap: 20px;
+  }
+  & span {
+    color: #FF715B;
+    font-size: 24px;
+    font-weight: 500;
+  }
+}
